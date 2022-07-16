@@ -1,14 +1,16 @@
 # ApiTestFramework
-This project is to demonstrate how to test any API with Java.  
-This is a simple Java framework to test any API. 
+This project is to demonstrate how to test any API with Java as programming language and TestNg as testing framework, and any API client library (HttpClient, can be switch to any other library).  
+
 
 Architecture:
 Programming Language: Java 8
+Testing framework: TestNG
 Design Pattern: Builder design for request forwarding. Page object pattern for each independent api validations.
 Http library: Integrated with HttpClient in losse couple approach. This framework can be easily switch  to any any other test library without modifying existing test scripts. 
 Json Deserialization: Jackson API
 Log: Log4j
 Report: Allure
+
  
 src/test:
  contains following 2 test suites.
